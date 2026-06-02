@@ -1,2 +1,2 @@
-# data-research-lab
-Research and learning repository for data engineering and tools
+# Data research Lab
+Research and learning repository for data engineering and tools.
