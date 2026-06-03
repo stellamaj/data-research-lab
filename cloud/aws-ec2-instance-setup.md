@@ -101,7 +101,13 @@ EC2 is an example of IaaS (Infrastructure as a Service).
 
 Select **Launch instance** to start creating a new EC2 instance.
 
-![Launch instance button](images/08-launch-instance.png)
+![Launch instance button](images/launch-instance.png)
+
+3. Configure the Launch Instance Page
+
+
+
+
 
 
 
