@@ -33,11 +33,13 @@ Use the AWS search bar and type **EC2**. Open the EC2 service. You can also star
 
 In the EC2 dashboard, scroll down to “Network & Security” and select **Key Pairs**.
 
-![Key Pairs selected](images/01-ec2-key-pairs-selected.png)
+![Key Pairs selected](images/ec2-key-pairs-highlighted.png)
 
 ### Step 3: Create Key Pair
 
 Select **Create key pair**.
+
+![Create key pair button](images/create-key-pair-button.png)
 
 ### Step 4: Configure Key Pair
 
@@ -54,6 +56,10 @@ Select **Create key pair**.
 Enter a name for your key pair and leave the other settings as default (RSA encryption and .pem file format). No tags are used.
 
 > **Note:** It is good practice to use standard naming conventions. A common format is `team-name-what-it-is`, for example: `se-stella-key-pair`.
+
+Click the orange **Create key pair** button.
+
+
 
 
 
