@@ -93,7 +93,9 @@ EC2 is an example of IaaS (Infrastructure as a Service).
 
 ![EC2 Instances menu](images/ec2-instances-menu.png)
 
+> **Note:** It is useful to apply filters such as **Running** in Saved filter sets to show only running instances instead of the full list.
 
+![Running instances filter](images/instances-running-filter.png)
 
 
 
