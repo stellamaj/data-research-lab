@@ -81,6 +81,20 @@ Next, go to your **Downloads** folder, cut the `.pem` file, and paste it into th
 
 ![Move PEM to SSH folder](images/pem-in-ssh-folder.png)
 
+## Step 4: Create an EC2 Instance
+
+> **Note:** A virtual machine in the cloud is called an instance.
+
+EC2 stands for Elastic Compute Cloud. It allows you to create virtual machines of different sizes and scale by running multiple instances, so you can choose the right size VM for efficiency.
+
+EC2 is an example of IaaS (Infrastructure as a Service).
+
+1. In the left sidebar, select **Instances**.
+
+![EC2 Instances menu](images/ec2-instances-menu.png)
+
+
+
 
 
 
