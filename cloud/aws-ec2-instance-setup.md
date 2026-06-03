@@ -31,7 +31,31 @@ Use the AWS search bar and type **EC2**. Open the EC2 service. You can also star
 
 ### Step 2: Go to Key Pairs
 
-In the EC2 dashboard, scroll down on the left menu and click **Key Pairs** under “Network & Security”.
+In the EC2 dashboard, scroll down to “Network & Security” and select **Key Pairs**.
+
+![Key Pairs selected](images/01-ec2-key-pairs-selected.png)
+
+### Step 3: Create Key Pair
+
+Select **Create key pair**.
+
+### Step 4: Configure Key Pair
+
+> **Note:** You can generate a key pair locally using tools like `ssh-keygen`.
+>
+> When you create a key pair in AWS:
+>
+> AWS generates both keys (public and private).
+>
+> AWS gives you only the private key, which is automatically downloaded as a `.pem` file.
+>
+> AWS keeps the public key and installs it on the instance.
+
+Enter a name for your key pair and leave the other settings as default (RSA encryption and .pem file format). No tags are used.
+
+> **Note:** It is good practice to use standard naming conventions. A common format is `team-name-what-it-is`, for example: `se-stella-key-pair`.
+
+
 
 
 
