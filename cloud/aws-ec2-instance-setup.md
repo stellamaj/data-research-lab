@@ -65,6 +65,22 @@ After selecting **Create key pair**, a success message appears at the top confir
 
 ![Success message and download](images/key-pair-success.png)
 
+## Step 3: Store the Private Key Securely
+
+After creating the key pair, the `.pem` file (private key) is downloaded to your machine. It should be stored securely and not shared.
+
+It is good practice to keep the file in a hidden folder on your machine (for example `.ssh`) to reduce the risk of accidental exposure.
+
+## Step 3: Store the Private Key Securely
+
+After downloading the `.pem` file, go to your user folder on your machine. To view hidden files on Mac, use the shortcut **Cmd + Shift + .**. Hidden folders and files will appear greyed out.
+
+If you do not see a `.ssh` folder, create one using **Cmd + Shift + N**, then rename it to `.ssh` (make sure to include the dot so it stays hidden).
+
+Next, go to your **Downloads** folder, cut the `.pem` file, and paste it into the `.ssh` folder.
+
+![Move PEM to SSH folder](images/pem-in-ssh-folder.png)
+
 
 
 
