@@ -57,7 +57,13 @@ Enter a name for your key pair and leave the other settings as default (RSA encr
 
 > **Note:** It is good practice to use standard naming conventions. A common format is `team-name-what-it-is`, for example: `se-stella-key-pair`.
 
-Click the orange **Create key pair** button.
+Select **Create key pair** button.
+
+![Name key pair and create](images/name-key-pair-create.png)
+
+After selecting **Create key pair**, a success message appears at the top confirming that the key pair was successfully created. The private key (.pem file) is automatically downloaded to your machine.
+
+![Success message and download](images/key-pair-success.png)
 
 
 
