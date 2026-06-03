@@ -27,6 +27,14 @@ A key pair consists of a public key and a private key. The public key is used by
 
 Use the AWS search bar and type **EC2**. Open the EC2 service. You can also star it for later access.
 
+![Search EC2](images/search-ec2.png)
+
+### Step 2: Go to Key Pairs
+
+In the EC2 dashboard, scroll down on the left menu and click **Key Pairs** under “Network & Security”.
+
+
+
 
 
 
