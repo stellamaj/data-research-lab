@@ -140,6 +140,12 @@ On the **Launch an instance** page, configure the required settings in each sect
 
   ![Add Security Group Rule](images/add-security-group-rule.png)
 
+  - Type: Custom TCP.
+  - Port range: 80.
+  - Source: 0.0.0.0/0.
+
+![EC2 Instance Settings Summary](images/ec2-instance-settings-summary.png)
+  
 
   
 
@@ -154,6 +160,7 @@ Software on your computer that connects to a server using the SSH protocol. The 
 **Security Group**
 **VPC**
 **Subnet**
+**Custome TCP**
 
   
 
