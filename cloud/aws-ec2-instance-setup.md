@@ -144,9 +144,13 @@ On the **Launch an instance** page, configure the required settings in each sect
   - Port range: 80.
   - Source: 0.0.0.0/0.
 
-![EC2 Instance Settings Summary](images/ec2-instance-settings-summary.png)
-  
+![EC2 Instance Settings Summary](images/ec2-instance-settings.png)
 
+   - On the right side of the screen there is a summary you can review before you launch an instance. In the summary, you can change the number of instances if you need to launch multiple instances at once. If you're happy with the summary, select "Launch instance".
+
+  ![EC2 Review Before Launch](images/ec2-review-before-launch.png)
+
+- Success banner appears at the top with an instance id as a link. Select the id link.
   
 
 ## Key Terms Explained
