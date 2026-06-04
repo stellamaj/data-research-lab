@@ -105,6 +105,22 @@ Select **Launch instance** to start creating a new EC2 instance.
 
 3. Configure the Launch Instance Page
 
+On the **Launch an instance** page, configure the required settings such as instance name, AMI, instance type, and key pair by selecting the appropriate options from the dropdown menus. Please see the example of settings below:
+
+- 'Name and Tags'
+ - Name: se-stella-first-instance
+- 'Application and OS Images (Amazon Machine Image)'
+  - Select Ubuntu tile
+  - From the dropdown menu you can change 'Amazon Machine Image (AMI)' e.g. from Ubuntu 26.04 LTS (HVM), SSD Volume Type to Ubuntu Server 24.04 LTS (HVM), SSD Volume Type => 'Some of your current settings will be changed or removed if you proceed' pop-up window appears => Select 'Conform changes' button
+  - Remember your Username: Ubuntu as this is your identifier to connect to the Instance from the terminal later
+- 'Instance type'
+    - Select t3.micro if you don't need big storage (t means general purpose, 3 is newer verison, micro is small 2 CPUs and mamory 1 GB). You can click on Compare instance type link to see other types.
+- 'Key pair (login)'
+  - start typeing your name of your key pair and select from the drop down e.g. se-stella-key-pair. This assigns public key to the instance.
+- 'Network settings'
+  - 
+  
+
 
 
 
