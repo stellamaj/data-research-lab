@@ -123,11 +123,34 @@ On the **Launch an instance** page, configure the required settings in each sect
   - You can click **Compare instance types** to view other options.
 
 - **Key pair (login)**
-  - Start typing the name of your key pair and select it from the dropdown list, for example `se-stella-key-pair`.
-  - This assigns the public key to the instance.
+  - Start typing the name of your key pair and select it from the dropdown list, for example `se-stella-key-pair`. This assigns the public key to the instance.
 
 - **Network settings**
+  - AWS makes default VPC and Subnet for you
+  - leave 'Auto-assign public IP' Enable
+  - Only think you need to set up is Security Group. These are the ports. select **Edit** button
 
+  ![Security Group Edit Button](images/security-group-edit-button.png)
+
+  - Leave default settings for: VPC, Subnet, Availability Zone, Auto-assign Public IP: Enable
+  - Insert 'Security group name': (e.g. se-stella-basic-sg)
+  - Insert description: (e.g. se-stella-first-instance security group)
+  - Inbound Security Group Rules leave Source: 0.0.0.0/0 for SSH even though is granting access to everyone, you still have key pair for security
+  - Select 'Add security group rule' button to add http and port as we are going to add to instance a web server so you can access it.
+
+  ![Add Security Group Rule](images/add-security-group-rule.png)
+
+## Key Terms Explained
+
+- **Auto-assign public IP**
+Enables the instance to receive a public IP address so it can be accessed from the internet. This allows SSH access, hosting a website, and API access from outside AWS.
+
+- **SSH client**
+Software on your computer that connects to a server using the SSH protocol. The SSH protocol is implemented inside the SSH client software.
+
+**Security Group**
+**VPC**
+**Subnet**
 
   
 
