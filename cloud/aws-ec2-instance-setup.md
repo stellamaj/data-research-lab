@@ -151,6 +151,8 @@ On the **Launch an instance** page, configure the required settings in each sect
   ![EC2 Review Before Launch](images/ec2-review-before-launch.png)
 
 - Success banner appears at the top with an instance id as a link. Select the id link.
+
+![EC2 Launch Success Banner](images/ec2-launch-success-banner.png)
   
 
 ## Key Terms Explained
