@@ -126,19 +126,22 @@ On the **Launch an instance** page, configure the required settings in each sect
   - Start typing the name of your key pair and select it from the dropdown list, for example `se-stella-key-pair`. This assigns the public key to the instance.
 
 - **Network settings**
-  - AWS makes default VPC and Subnet for you
-  - leave 'Auto-assign public IP' Enable
-  - Only think you need to set up is Security Group. These are the ports. select **Edit** button
+  - AWS creates a default VPC and subnet for you.
+  - Leave “Auto-assign public IP” enabled.
+  - The only thing you need to set up is the Security Group. This is where you define the ports. Select the **Edit** button.
 
   ![Security Group Edit Button](images/security-group-edit-button.png)
 
-  - Leave default settings for: VPC, Subnet, Availability Zone, Auto-assign Public IP: Enable
-  - Insert 'Security group name': (e.g. se-stella-basic-sg)
-  - Insert description: (e.g. se-stella-first-instance security group)
-  - Inbound Security Group Rules leave Source: 0.0.0.0/0 for SSH even though is granting access to everyone, you still have key pair for security
-  - Select 'Add security group rule' button to add http and port as we are going to add to instance a web server so you can access it.
+  - Leave default settings for VPC, Subnet, Availability Zone, and Auto-assign Public IP: enabled.
+  - Enter the Security group name (for example: se-stella-basic-sg).
+  - Enter the description (for example: se-stella-first-instance security group).
+  - In Inbound Security Group Rules, leave Source as 0.0.0.0/0 for SSH. Even though this allows access to everyone, you still use a key pair for security.
+  - Select the **Add security group rule** button to add HTTP and the port, as we are going to set up a web server on the instance so you can access it.
 
   ![Add Security Group Rule](images/add-security-group-rule.png)
+
+
+  
 
 ## Key Terms Explained
 
