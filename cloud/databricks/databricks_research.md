@@ -398,6 +398,14 @@ https://login.databricks.com/
 
 ![Iris SQL table](images/iris-sql-table.png)
 
+## Creating a Notebook in Databricks
+
+## Step 1: Click the **Create** dropdown and select **Notebook**
+
+![Create notebook dropdown](images/create-notebook.png)
+
+Rename the notebook at the top to: `pyspark_intro_with_iris`
+
 
 
 
