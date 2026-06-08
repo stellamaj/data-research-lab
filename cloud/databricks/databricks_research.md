@@ -238,12 +238,53 @@ Apache Spark became popular because it is much faster and easier to use than old
 - Easy to use APIs (Python, SQL, Java, Scala)  
 - Supports multiple workloads (batch, streaming, machine learning) in one system  
 - Scales easily to handle very large datasets  
-- Works well with modern cloud platforms  
+
+- Works well with modern cloud platforms (cloud agnostic), such as:
+  - AWS (Amazon Web Services)  
+  - Azure (Microsoft)  
+  - Google Cloud Platform  
 
 📌 **Key idea:**
 Spark became popular because it made big data processing faster, simpler, and more flexible.
 
 ---
+
+## Question 13
+What is PySpark? Why do we tend to use it?
+
+### Answer  
+PySpark is a Python interface (API) for Apache Spark that allows you to use Apache Spark functionality with Python code.
+
+It enables you to work with large-scale data processing in a distributed system using familiar Python syntax.
+
+Why we use it:
+- Uses Python, which is easy to learn and widely used  
+- Allows working with big data without writing Scala or Java  
+- Provides access to Spark’s distributed computing power  
+- Supports data processing, analytics, and machine learning  
+
+📌 **Key idea:**
+PySpark makes Apache Spark accessible to Python developers while still enabling fast, large-scale data processing.
+
+---
+
+## Question  
+What is Databricks?
+
+### Answer  
+Databricks is a cloud-based platform that makes it easier to work with big data and machine learning using Apache Spark.
+
+It provides a managed environment where you can write, run, and scale data processing workflows without setting up infrastructure yourself.
+
+Key features:
+- Built on Apache Spark  
+- Runs in the cloud (AWS, Azure, Google Cloud)  
+- Provides notebooks for coding and collaboration  
+- Supports data engineering, analytics, and machine learning  
+- Automatically manages clusters and resources  
+
+📌 **Key idea:**
+Databricks simplifies working with big data by providing a ready-to-use platform built around Apache Spark.
 
 
 
