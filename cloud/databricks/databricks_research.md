@@ -99,7 +99,41 @@ A data warehouse brings data together in one place so it can be analysed efficie
 **Simple explanation:**
 Data warehouses store data as files across multiple servers, but the data inside those files is organised and presented to users as tables.
 
-- What are Data Lakes? How do they work?
+## Question  
+What are Data Lakes? How do they work?
+
+### Answer  
+A data lake is a storage system that holds large amounts of raw data in its original format.
+
+It can store structured data (tables), semi-structured data (JSON, XML), and unstructured data (images, videos, logs).
+
+How it works:
+Data is collected from different sources and stored directly into the data lake without being heavily processed first.
+
+Later, when needed, the data is processed and analysed for specific use cases.
+
+**Key idea:**
+Unlike a data warehouse, a data lake stores raw data first and structures it later when needed.
+
+
 - What are Data Lakehouses?
 - What are Delta Lakes?
 
+### Additional Notes
+
+✔️ Data Warehouse  
+- mainly structured data (tables: rows + columns)  
+- data is cleaned and organised before storage  
+- used for analysis and reporting  
+
+✔️ Data Lake  
+- stores all types of data  
+  - structured (tables)  
+  - semi-structured (JSON, logs)  
+  - unstructured (images, videos, text)  
+- data is kept in raw form first  
+- structured later when needed  
+
+✔️ Simple summary  
+Warehouse = clean, structured data  
+Lake = all raw data types stored as they are  
