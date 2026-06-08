@@ -378,6 +378,10 @@ https://login.databricks.com/
 
 ![Add data from Create dropdown](images/create-add-data.png)
 
+### Step 5: On the Add data page, select the **Create or modify table** tile
+
+![Create or modify table tile](images/create-modify-table-tile.png)
+
 
 
 
