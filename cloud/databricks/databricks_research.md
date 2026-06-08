@@ -360,6 +360,11 @@ Please sign up using this link:
 
 ## Ingesting Data into Databricks
 
+### Step 1: Download sample data (iris.csv)
+
+📌 Download the dataset from:
+
+
 
 
 ## Additional Notes
