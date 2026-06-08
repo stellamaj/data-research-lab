@@ -185,6 +185,28 @@ Apache Spark was created to solve the problem of slow and inefficient processing
 **Key idea:**
 Apache Spark solves the problem of slow big data processing by making it faster, simpler, and more efficient at scale.
 
+## Question 11
+How does Apache Spark work? What is the architecture behind the scenes?
+
+### Answer  
+Apache Spark uses a distributed architecture to process large amounts of data across multiple machines.
+
+**How it works:**
+1. A user submits a Spark application (code)
+2. The driver program coordinates the execution
+3. The work is split into smaller tasks
+4. These tasks are sent to worker machines (nodes)
+5. Each worker processes its part of the data in parallel
+6. Results are combined and returned to the user
+
+**Main components:**
+- Driver: controls the whole process and schedules tasks  
+- Cluster Manager: allocates resources across machines  
+- Workers (nodes): perform the actual data processing  
+
+**Key idea:**
+Spark speeds up big data processing by splitting work across multiple machines and running tasks in parallel.
+
 
 
 
