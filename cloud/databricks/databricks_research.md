@@ -12,6 +12,8 @@ It is often described by the 3 Vs:
 
 Examples include social media data, online shopping transactions, IoT sensor data, streaming services data, financial market data, and healthcare records.
 
+---
+
 ## Question 2  
 What is OLTP?
 
@@ -32,6 +34,8 @@ It is used for day-to-day operations where data is constantly inserted, updated,
 - Booking systems (flights, hotels)
 - Payment processing systems
 
+---
+
 ## Question 3  
 What is ACID?
 
@@ -44,6 +48,8 @@ It stands for:
 - Consistency: A transaction takes the database from one valid state to another  
 - Isolation: Transactions do not interfere with each other  
 - Durability: Once a transaction is committed, it is permanently saved
+
+---
 
 ## Question 4  
 What is OLAP?
@@ -64,6 +70,8 @@ It is used for complex queries, reporting, and data analysis rather than day-to-
 - Financial reporting  
 - Business intelligence dashboards  
 - Market analysis
+
+---
   
 ## Question 5  
 What are Data Warehouses? How do they work?
@@ -99,6 +107,8 @@ A data warehouse brings data together in one place so it can be analysed efficie
 📌 **Simple explanation:**
 Data warehouses store data as files across multiple servers, but the data inside those files is organised and presented to users as tables.
 
+---
+
 ## Question 6
 What are Data Lakes? How do they work?
 
@@ -115,6 +125,8 @@ Later, when needed, the data is processed and analysed for specific use cases.
 📌 **Key idea:**
 Unlike a data warehouse, a data lake stores raw data first and structures it later when needed.
 
+---
+
 ## Question 7
 What are Data Lakehouses?
 
@@ -130,6 +142,8 @@ It allows organisations to store all types of data (like a data lake) while also
 
 📌 **Key idea:**
 A lakehouse brings together the flexibility of a data lake and the structure and performance of a data warehouse in one system.
+
+---
 
 ## Question 8
 What are Delta Lakes?
@@ -165,6 +179,8 @@ It allows distributed processing, meaning it can handle large datasets by splitt
 📌 **Key idea:**
 Apache Spark is used to process and analyse big data efficiently by distributing tasks across many machines.
 
+---
+
 ## Question 10
 What problem did Apache Spark solve?
 
@@ -184,6 +200,8 @@ Apache Spark was created to solve the problem of slow and inefficient processing
 
 📌 **Key idea:**
 Apache Spark solves the problem of slow big data processing by making it faster, simpler, and more efficient at scale.
+
+---
 
 ## Question 11
 How does Apache Spark work? What is the architecture behind the scenes?
@@ -207,6 +225,8 @@ Apache Spark uses a distributed architecture to process large amounts of data ac
 📌 **Key idea:**
 Spark speeds up big data processing by splitting work across multiple machines and running tasks in parallel.
 
+---
+
 ## Question 12
 Why did Apache Spark become popular?
 
@@ -222,6 +242,8 @@ Apache Spark became popular because it is much faster and easier to use than old
 
 📌 **Key idea:**
 Spark became popular because it made big data processing faster, simpler, and more flexible.
+
+---
 
 
 
