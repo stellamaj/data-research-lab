@@ -394,6 +394,9 @@ https://login.databricks.com/
 
 ![Create SQL table](images/create-sql-table.png)
 
+### 📌 Note: The iris dataset has been created as a SQL table named "iris" and can now be queried in Databricks.
+
+![Iris SQL table](images/iris-sql-table.png)
 
 
 
