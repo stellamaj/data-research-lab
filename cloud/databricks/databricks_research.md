@@ -94,7 +94,6 @@ Data is collected from different systems (such as databases, applications, and f
 - Decision making  
 
 📌 **Key idea:**
-
 A data warehouse brings data together in one place so it can be analysed efficiently.
 
 📌 **Simple explanation:**
@@ -245,3 +244,23 @@ Spark became popular because it made big data processing faster, simpler, and mo
 ✅ Simple summary  
 Warehouse = clean, structured data  
 Lake = all raw data types stored as they are  
+
+### 📌 In-Memory Computing (Apache Spark)
+
+📌 In-memory computing means data is processed directly in RAM (memory) instead of being constantly read from disk (hard drive).
+
+💡 In-memory computing = faster processing because data is kept in RAM during computation.
+
+---
+
+❌ Limitations:
+- RAM is limited → not all data can always fit in memory  
+- higher cost compared to disk storage  
+
+---
+
+✅ Why it still works:
+Spark does NOT require all data to fit in RAM at once. It:
+- splits data across many machines (distributed system)  
+- keeps only active data in memory  
+- writes overflow to disk when needed  
