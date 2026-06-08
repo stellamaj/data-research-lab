@@ -133,7 +133,7 @@ A lakehouse brings together the flexibility of a data lake and the structure and
 
 ---
 
-## Question 8; What are Delta Lakes?
+## Question 8: What are Delta Lakes?
 
 Delta Lake is an open-source storage layer that adds reliability and structure to a data lake.
 
@@ -309,7 +309,7 @@ Databricks provides an easy interface on top of Apache Spark and automatically m
 
 ---
 
-## Question: Why has Databricks become popular?
+## Question 17: Why has Databricks become popular?
  
 Databricks became popular because it makes working with big data and Apache Spark much easier.
 
@@ -325,6 +325,40 @@ Key reasons:
 📌 **Key idea:**
 Databricks became popular because it simplifies big data processing while providing the power and scalability of Apache Spark.
 
+---
+
+## Question: What are Databricks' key features?
+
+- Built on Apache Spark for large-scale distributed data processing
+- Cloud-based platform that runs on AWS, Azure, and Google Cloud
+- Interactive notebooks for coding, collaboration, and visualisation
+- Automated cluster creation, scaling, and management
+- Supports multiple languages, including Python, SQL, Scala, and R
+- Integrates data engineering, analytics, and machine learning in one platform
+- Supports Delta Lake and Lakehouse architectures
+- Provides security, governance, and data management tools
+
+📌 **Key idea:**
+Databricks provides an easy-to-use, managed platform for working with big data, analytics, and machine learning at scale.
+
+---
+
+## Databricks Account Setup
+
+Please sign up using this link:  
+🌐 https://login.databricks.com/
+
+### Steps:
+- Click "Create Account"  
+- Select "For personal use" / "Get Free Edition"  
+- Set username and location  
+- "Tell us about yourself" → Skip  
+- Wait a few seconds until you reach the Databricks home screen  
+- Bookmark or favourite the page for easy access later
+
+---
+
+## Ingesting Data into Databricks
 
 
 
