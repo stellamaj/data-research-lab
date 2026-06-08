@@ -1,9 +1,7 @@
 # Databricks and PySpark research
 
-## Question 1
-What can be considered "Big Data"?
+## Question 1: What can be considered "Big Data"?
 
-### Answer
 Big Data is data that is too large, complex, or fast-moving to be efficiently processed using traditional data processing tools.
 
 It is often described by the 3 Vs:
@@ -16,10 +14,8 @@ Examples include social media data, online shopping transactions, IoT sensor dat
 
 ---
 
-## Question 2  
-What is OLTP?
+## Question 2: What is OLTP?
 
-### Answer  
 OLTP (Online Transaction Processing) is a system designed to handle a large number of short, fast, and real-time database transactions.
 
 It is used for day-to-day operations where data is constantly inserted, updated, or deleted.
@@ -38,10 +34,8 @@ It is used for day-to-day operations where data is constantly inserted, updated,
 
 ---
 
-## Question 3  
-What is ACID?
+## Question 3: What is ACID?
 
-### Answer  
 ACID is a set of properties that ensure reliable processing of database transactions.
 
 It stands for:
@@ -53,10 +47,8 @@ It stands for:
 
 ---
 
-## Question 4  
-What is OLAP?
+## Question 4: What is OLAP?
 
-## Answer  
 OLAP (Online Analytical Processing) is a system designed for analysing large amounts of historical data.
 
 It is used for complex queries, reporting, and data analysis rather than day-to-day transactions.
@@ -75,10 +67,8 @@ It is used for complex queries, reporting, and data analysis rather than day-to-
 
 ---
   
-## Question 5  
-What are Data Warehouses? How do they work?
+## Question 5: What are Data Warehouses? How do they work?
 
-### Answer  
 A data warehouse is a central system used to store large amounts of structured data from multiple sources for analysis and reporting.
 
 It is designed for querying and analysis rather than day-to-day operations (A data warehouse is not used for running live business actions, but for analysing past data and creating reports.)
@@ -111,10 +101,8 @@ Data warehouses store data as files across multiple servers, but the data inside
 
 ---
 
-## Question 6
-What are Data Lakes? How do they work?
+## Question 6: What are Data Lakes? How do they work?
 
-### Answer  
 A data lake is a storage system that holds large amounts of raw data in its original format.
 
 It can store structured data (tables), semi-structured data (JSON, XML), and unstructured data (images, videos, logs).
@@ -129,10 +117,8 @@ Unlike a data warehouse, a data lake stores raw data first and structures it lat
 
 ---
 
-## Question 7
-What are Data Lakehouses?
+## Question 7: What are Data Lakehouses?
 
-### Answer  
 A data lakehouse is a modern data architecture that combines the features of a data lake and a data warehouse.
 
 It allows organisations to store all types of data (like a data lake) while also supporting structured data and fast analytics (like a data warehouse).
@@ -147,10 +133,8 @@ A lakehouse brings together the flexibility of a data lake and the structure and
 
 ---
 
-## Question 8
-What are Delta Lakes?
+## Question 8; What are Delta Lakes?
 
-### Answer  
 Delta Lake is an open-source storage layer that adds reliability and structure to a data lake.
 
 It works on top of data lake storage (such as cloud storage) and improves how data is stored and managed.
@@ -166,10 +150,8 @@ Delta Lake turns a basic data lake into a more reliable and structured system, o
 
 ---
 
-## Question 9
-What is Apache Spark?
-
-### Answer  
+## Question 9: What is Apache Spark?
+ 
 Apache Spark is a fast, open-source data processing framework used for big data analytics.
 
 It allows distributed processing, meaning it can handle large datasets by splitting work across multiple computers.
@@ -185,10 +167,8 @@ Apache Spark is used to process and analyse big data efficiently by distributing
 
 ---
 
-## Question 10
-What problem did Apache Spark solve?
+## Question 10: What problem did Apache Spark solve?
 
-### Answer  
 Apache Spark was created to solve the problem of slow and inefficient processing of large-scale data.
 
 **Before Spark, big data systems were:**
@@ -207,8 +187,7 @@ Apache Spark solves the problem of slow big data processing by making it faster,
 
 ---
 
-## Question 11
-How does Apache Spark work? What is the architecture behind the scenes?
+## Question 11: How does Apache Spark work? What is the architecture behind the scenes?
 
 ### Answer  
 Apache Spark uses a distributed architecture to process large amounts of data across multiple machines.
@@ -231,10 +210,8 @@ Spark speeds up big data processing by splitting work across multiple machines a
 
 ---
 
-## Question 12
-Why did Apache Spark become popular?
+## Question 12: Why did Apache Spark become popular?
 
-### Answer  
 Apache Spark became popular because it is much faster and easier to use than older big data tools like Hadoop MapReduce.
 
 **Key reasons:**
@@ -253,10 +230,8 @@ Spark became popular because it made big data processing faster, simpler, and mo
 
 ---
 
-## Question 13
-What is PySpark? Why do we tend to use it?
+## Question 13: What is PySpark? Why do we tend to use it?
 
-### Answer  
 PySpark is a Python interface (API) for Apache Spark that allows you to use Apache Spark functionality with Python code.
 
 It enables you to work with large-scale data processing in a distributed system using familiar Python syntax.
@@ -272,10 +247,8 @@ PySpark makes Apache Spark accessible to Python developers while still enabling 
 
 ---
 
-## Question 14
-What is Databricks?
+## Question 14: What is Databricks?
 
-### Answer  
 Databricks is a cloud-based platform that makes it easier to work with big data and machine learning using Apache Spark.
 
 It provides a managed environment where you can write, run, and scale data processing workflows without setting up infrastructure yourself.
@@ -292,10 +265,8 @@ Databricks simplifies working with big data by providing a ready-to-use platform
 
 ---
 
-## Question 15 
-What problems did Databricks solve?
+## Question 15: What problems did Databricks solve?
 
-### Answer  
 Databricks solved several challenges of using Apache Spark and big data systems.
 
 Problems it solved:
@@ -316,10 +287,8 @@ Databricks makes big data processing easier by removing the need to manage Spark
 
 ---
 
-## Question 16
-How does Databricks work?
+## Question 16: How does Databricks work?
 
-### Answer  
 Databricks works as a managed cloud platform built on Apache Spark that runs data processing workloads on scalable clusters.
 
 How it works:
@@ -340,10 +309,8 @@ Databricks provides an easy interface on top of Apache Spark and automatically m
 
 ---
 
-## Question  
-Why has Databricks become popular?
-
-### Answer  
+## Question: Why has Databricks become popular?
+ 
 Databricks became popular because it makes working with big data and Apache Spark much easier.
 
 Key reasons:
@@ -355,13 +322,13 @@ Key reasons:
 - Built and maintained by the original creators of Apache Spark  
 - Helps organisations process large amounts of data more efficiently  
 
-Key idea:
+📌 **Key idea:**
 Databricks became popular because it simplifies big data processing while providing the power and scalability of Apache Spark.
 
 
 
 
-### Additional Notes
+## Additional Notes
 
 ✅ Data Warehouse  
 - mainly structured data (tables: rows + columns)  
