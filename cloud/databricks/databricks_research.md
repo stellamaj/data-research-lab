@@ -1,3 +1,5 @@
+# Databricks and PySpark research
+
 ## Question 1
 What can be considered "Big Data"?
 
@@ -162,6 +164,8 @@ It works on top of data lake storage (such as cloud storage) and improves how da
 📌 **Key idea:**
 Delta Lake turns a basic data lake into a more reliable and structured system, often used in lakehouse architectures.
 
+---
+
 ## Question 9
 What is Apache Spark?
 
@@ -268,7 +272,7 @@ PySpark makes Apache Spark accessible to Python developers while still enabling 
 
 ---
 
-## Question  
+## Question 14
 What is Databricks?
 
 ### Answer  
@@ -285,6 +289,74 @@ Key features:
 
 📌 **Key idea:**
 Databricks simplifies working with big data by providing a ready-to-use platform built around Apache Spark.
+
+---
+
+## Question 15 
+What problems did Databricks solve?
+
+### Answer  
+Databricks solved several challenges of using Apache Spark and big data systems.
+
+Problems it solved:
+- Setting up and managing Spark clusters was complex and time-consuming  
+- Infrastructure needed to be configured manually (servers, scaling, updates)  
+- Collaboration between data engineers, scientists, and analysts was difficult  
+- Performance tuning and resource management required expertise  
+- Integrating different data tools was complicated  
+
+How Databricks helps:
+- Provides a fully managed Spark environment  
+- Automatically handles scaling and infrastructure  
+- Offers collaborative notebooks for teams  
+- Simplifies data engineering, analytics, and machine learning workflows  
+
+📌 **Key idea:**
+Databricks makes big data processing easier by removing the need to manage Spark infrastructure manually.
+
+---
+
+## Question 16
+How does Databricks work?
+
+### Answer  
+Databricks works as a managed cloud platform built on Apache Spark that runs data processing workloads on scalable clusters.
+
+How it works:
+1. A user writes code in notebooks (Python, SQL, Scala, or R)  
+2. Databricks creates or uses a Spark cluster in the cloud  
+3. The code is sent to Apache Spark running on that cluster  
+4. Spark processes the data in a distributed way across multiple machines  
+5. Results are returned to the notebook for analysis or visualisation  
+
+Key components:
+- Notebooks: interactive workspace for writing code  
+- Clusters: groups of virtual machines that run Spark  
+- Storage: data is usually stored in cloud storage (like S3 or Azure Data Lake)  
+- Spark engine: performs the actual distributed processing  
+
+📌 **Key idea:**
+Databricks provides an easy interface on top of Apache Spark and automatically manages the underlying infrastructure.
+
+---
+
+## Question  
+Why has Databricks become popular?
+
+### Answer  
+Databricks became popular because it makes working with big data and Apache Spark much easier.
+
+Key reasons:
+- Eliminates the complexity of setting up and managing Spark clusters  
+- Automatically scales resources based on workload  
+- Provides collaborative notebooks for teams  
+- Integrates data engineering, analytics, and machine learning in one platform  
+- Supports major cloud providers (AWS, Azure, and Google Cloud)  
+- Built and maintained by the original creators of Apache Spark  
+- Helps organisations process large amounts of data more efficiently  
+
+Key idea:
+Databricks became popular because it simplifies big data processing while providing the power and scalability of Apache Spark.
 
 
 
