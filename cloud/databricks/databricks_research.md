@@ -374,6 +374,12 @@ https://login.databricks.com/
 
 ![Catalog in left sidebar](images/catalog.png)
 
+### Step 4: Select the **Create** dropdown and choose **Add data**
+
+![Add data from Create dropdown](images/create-add-data.png)
+
+
+
 
 
 
