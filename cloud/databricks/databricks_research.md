@@ -327,7 +327,7 @@ Databricks became popular because it simplifies big data processing while provid
 
 ---
 
-## Question: What are Databricks' key features?
+## Question 18: What are Databricks' key features?
 
 - Built on Apache Spark for large-scale distributed data processing
 - Cloud-based platform that runs on AWS, Azure, and Google Cloud
