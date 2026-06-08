@@ -165,6 +165,26 @@ It allows distributed processing, meaning it can handle large datasets by splitt
 **Key idea:**
 Apache Spark is used to process and analyse big data efficiently by distributing tasks across many machines.
 
+## Question 10
+What problem did Apache Spark solve?
+
+### Answer  
+Apache Spark was created to solve the problem of slow and inefficient processing of large-scale data.
+
+**Before Spark, big data systems were:**
+- slow because they read and wrote data to disk repeatedly  
+- complex to program and manage  
+- not efficient for real-time or iterative processing  
+
+**What Spark improved:**
+- Faster processing using in-memory computing (reducing disk usage)  
+- Easier programming with simple APIs  
+- Better performance for large-scale and distributed data  
+- Support for both batch and streaming data in one system  
+
+**Key idea:**
+Apache Spark solves the problem of slow big data processing by making it faster, simpler, and more efficient at scale.
+
 
 
 
