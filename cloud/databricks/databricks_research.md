@@ -386,6 +386,10 @@ https://login.databricks.com/
 
 ![Upload iris.csv file](images/upload-iris.png)
 
+### 📌 Note: After loading, the data is available as a SQL table and can be queried in Databricks.
+
+![SQL table preview](images/sql-table-preview.png)
+
 
 
 
