@@ -115,18 +115,51 @@ Later, when needed, the data is processed and analysed for specific use cases.
 **Key idea:**
 Unlike a data warehouse, a data lake stores raw data first and structures it later when needed.
 
+## Question  
+What are Data Lakehouses?
 
-- What are Data Lakehouses?
-- What are Delta Lakes?
+### Answer  
+A data lakehouse is a modern data architecture that combines the features of a data lake and a data warehouse.
+
+It allows organisations to store all types of data (like a data lake) while also supporting structured data and fast analytics (like a data warehouse).
+
+How it works:
+- Data is stored in low-cost storage like a data lake  
+- On top of this storage, a structured layer is added  
+- This allows SQL queries, analytics, and machine learning on the same data  
+
+Key idea:
+A lakehouse brings together the flexibility of a data lake and the structure and performance of a data warehouse in one system.
+
+## Question  
+What are Delta Lakes?
+
+### Answer  
+Delta Lake is an open-source storage layer that adds reliability and structure to a data lake.
+
+It works on top of data lake storage (such as cloud storage) and improves how data is stored and managed.
+
+Key features:
+- Ensures data reliability using ACID transactions  
+- Supports fast queries on large datasets  
+- Allows both batch and streaming data processing  
+- Keeps data consistent even when multiple users access it  
+
+Key idea:
+Delta Lake turns a basic data lake into a more reliable and structured system, often used in lakehouse architectures.
+
+
+
+
 
 ### Additional Notes
 
-✔️ Data Warehouse  
+✅ Data Warehouse  
 - mainly structured data (tables: rows + columns)  
 - data is cleaned and organised before storage  
 - used for analysis and reporting  
 
-✔️ Data Lake  
+✅ Data Lake  
 - stores all types of data  
   - structured (tables)  
   - semi-structured (JSON, logs)  
@@ -134,6 +167,6 @@ Unlike a data warehouse, a data lake stores raw data first and structures it lat
 - data is kept in raw form first  
 - structured later when needed  
 
-✔️ Simple summary  
+✅ Simple summary  
 Warehouse = clean, structured data  
 Lake = all raw data types stored as they are  
