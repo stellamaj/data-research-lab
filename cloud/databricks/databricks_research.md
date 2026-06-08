@@ -360,10 +360,19 @@ Please sign up using this link:
 
 ## Ingesting Data into Databricks
 
-### Step 1: Download sample data (iris.csv)
+### Step 1: Access sample data (iris.csv)
 
-📌 Download the dataset from:
-https://raw.githubusercontent.com/stellamaj/data-research-lab/refs/heads/main/data-sets/iris.csv
+📌 Dataset location:
+https://raw.githubusercontent.com/stellamaj/data-research-lab/main/data-sets/iris.csv
+
+### Step 2: Log in to Databricks
+
+🌐 Open the login page:
+https://login.databricks.com/
+
+### Step 3: On the Welcome page, click 👉 **Catalog** in the left sidebar
+
+![Catalog in left sidebar](images/catalog.png)
 
 
 
