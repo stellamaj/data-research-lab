@@ -93,10 +93,10 @@ Data is collected from different systems (such as databases, applications, and f
 - Business analysis  
 - Decision making  
 
-📌**Key idea:**
+📌 **Key idea:**
 A data warehouse brings data together in one place so it can be analysed efficiently.
 
-📌**Simple explanation:**
+📌 **Simple explanation:**
 Data warehouses store data as files across multiple servers, but the data inside those files is organised and presented to users as tables.
 
 ## Question 6
@@ -112,7 +112,7 @@ Data is collected from different sources and stored directly into the data lake 
 
 Later, when needed, the data is processed and analysed for specific use cases.
 
-📌**Key idea:**
+📌 **Key idea:**
 Unlike a data warehouse, a data lake stores raw data first and structures it later when needed.
 
 ## Question 7
@@ -128,7 +128,7 @@ It allows organisations to store all types of data (like a data lake) while also
 - On top of this storage, a structured layer is added  
 - This allows SQL queries, analytics, and machine learning on the same data  
 
-📌**Key idea:**
+📌 **Key idea:**
 A lakehouse brings together the flexibility of a data lake and the structure and performance of a data warehouse in one system.
 
 ## Question 8
@@ -145,7 +145,7 @@ It works on top of data lake storage (such as cloud storage) and improves how da
 - Allows both batch and streaming data processing  
 - Keeps data consistent even when multiple users access it  
 
-📌**Key idea:**
+📌 **Key idea:**
 Delta Lake turns a basic data lake into a more reliable and structured system, often used in lakehouse architectures.
 
 ## Question 9
@@ -162,7 +162,7 @@ It allows distributed processing, meaning it can handle large datasets by splitt
 - Supports multiple languages (Python, Scala, Java, SQL)  
 - Can process batch data and streaming data  
 
-📌**Key idea:**
+📌 **Key idea:**
 Apache Spark is used to process and analyse big data efficiently by distributing tasks across many machines.
 
 ## Question 10
@@ -182,7 +182,7 @@ Apache Spark was created to solve the problem of slow and inefficient processing
 - Better performance for large-scale and distributed data  
 - Support for both batch and streaming data in one system  
 
-📌**Key idea:**
+📌 **Key idea:**
 Apache Spark solves the problem of slow big data processing by making it faster, simpler, and more efficient at scale.
 
 ## Question 11
@@ -204,7 +204,7 @@ Apache Spark uses a distributed architecture to process large amounts of data ac
 - Cluster Manager: allocates resources across machines  
 - Workers (nodes): perform the actual data processing  
 
-📌**Key idea:**
+📌 **Key idea:**
 Spark speeds up big data processing by splitting work across multiple machines and running tasks in parallel.
 
 ## Question 12
@@ -220,7 +220,7 @@ Apache Spark became popular because it is much faster and easier to use than old
 - Scales easily to handle very large datasets  
 - Works well with modern cloud platforms  
 
-📌**Key idea:**
+📌 **Key idea:**
 Spark became popular because it made big data processing faster, simpler, and more flexible.
 
 
