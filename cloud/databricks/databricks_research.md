@@ -243,21 +243,17 @@ Spark became popular because it made big data processing faster, simpler, and mo
 
 ✅ Simple summary  
 Warehouse = clean, structured data  
-Lake = all raw data types stored as they are  
-
-### 📌 In-Memory Computing (Apache Spark)
-
-📌 In-memory computing means data is processed directly in RAM (memory) instead of being constantly read from disk (hard drive).
-
-💡 In-memory computing = faster processing because data is kept in RAM during computation.
+Lake = all raw data types stored as they are
 
 ---
+
+### In-Memory Computing (Apache Spark)
+
+📌 In-memory computing means data is processed directly in RAM (memory) instead of being constantly read from disk (hard drive). It is faster because data is kept in RAM during computation.
 
 ❌ Limitations:
 - RAM is limited → not all data can always fit in memory  
 - higher cost compared to disk storage  
-
----
 
 ✅ Why it still works:
 Spark does NOT require all data to fit in RAM at once. It:
