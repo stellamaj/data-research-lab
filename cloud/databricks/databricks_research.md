@@ -94,6 +94,7 @@ Data is collected from different systems (such as databases, applications, and f
 - Decision making  
 
 📌 **Key idea:**
+
 A data warehouse brings data together in one place so it can be analysed efficiently.
 
 📌 **Simple explanation:**
