@@ -404,7 +404,9 @@ https://login.databricks.com/
 
 ![Create notebook dropdown](images/create-notebook.png)
 
-Rename the notebook at the top to: `pyspark_intro_with_iris`
+## Step 2: Rename the notebook at the top to `pyspark_intro_with_iris`
+
+![Rename notebook](images/rename-notebook.png)
 
 
 
