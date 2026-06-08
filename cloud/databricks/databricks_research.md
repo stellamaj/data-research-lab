@@ -382,6 +382,10 @@ https://login.databricks.com/
 
 ![Create or modify table tile](images/create-modify-table-tile.png)
 
+### Step 6: On the "Create or modify table from file upload" page, upload the iris.csv file
+
+![Upload iris.csv file](images/upload-iris.png)
+
 
 
 
